@@ -19,7 +19,7 @@ int GetNumberB()
 int GetResult(int numberA, int numberB)
 {
     int result = 1;
-    for (int c = 0; c < numberB; c++)
+    for (int count = 0; count < numberB; count++)
     {
         result = result * numberA;
     }
