@@ -26,8 +26,6 @@ int GetResult(int numberA, int numberB)
     return result;
 }
 
-int numberA = GetNumberA();
-int numberB = GetNumberB();
-int result = GetResult(numberA, numberB);
+int result = GetResult(GetNumberA(), GetNumberB());
 Console.WriteLine(result);
 
